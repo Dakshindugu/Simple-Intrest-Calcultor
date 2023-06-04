@@ -1,0 +1,31 @@
+<html>
+        <body><!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <h1>Simple Intreset Calcultor</h1>
+    <input type="number" placeholder="Enter The Amount of Money (Principal)" id="principal">
+    <br>
+    <br>
+     <input type="number" placeholder="Enter The Amount of Intreset (Rate)" id="rate">
+     <br>
+     <br>
+      <input type="number" placeholder="Enter The Amount of Time (Years)" id="time">
+      <br>
+      <br>
+      <button onclick="sub()">Calculate</button>
+      <p id="answer"></p>
+    </body>    
+    <html>
+</body>
+        <style></style>
+        <script>function sub(){
+    var  p="";
+    var  r="";
+    var  t="";
+    p= document.getElementById("principal").value;
+    r= document.getElementById("rate").value;
+    t= document.getElementById("time").value;
+    document.getElementById("answer").innerHTML= p * r * t / 100;
+}</script>
+      </html>
